@@ -42,7 +42,7 @@ const AuthPage = ({navigation}: any): JSX.Element => {
       console.log(e);
       setLoadingKey(false);
     }
-  }, [navigation]);
+  }, [navigation, token]);
 
   useEffect(() => {
     getUserKey();
