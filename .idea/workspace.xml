@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="del">
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/android/app/src/main/java/com/vkfplayer/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/android/app/src/main/java/com/vkfplayer/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LOqPJYRYeJhVfYYDCWibE20d5b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/user/WebstormProjects/VKFreePlayer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/Users/user/WebstormProjects/VKFreePlayer/node_modules/prettier",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "/Users/user/WebstormProjects/VKFreePlayer/VKFPlayer/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="" />
+      <created>1675752450788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675752450788</updated>
+      <workItem from="1675752452083" duration="1007000" />
+    </task>
+    <task id="LOCAL-00001" summary="init project">
+      <created>1675752846570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675752846570</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init project">
+      <created>1675754804857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675754804857</updated>
+    </task>
+    <task id="LOCAL-00003" summary="del">
+      <created>1675758499313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675758499313</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project" />
+    <MESSAGE value="del" />
+    <option name="LAST_COMMIT_MESSAGE" value="del" />
+  </component>
+</project>
