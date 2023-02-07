@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="del">
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/android/app/src/main/java/com/vkfplayer/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/android/app/src/main/java/com/vkfplayer/MainActivity.java" afterDir="false" />
+    <list default="true" id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="add basic navigation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VKFPlayer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/navigation/NavigationList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/navigation/NavigationList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VKFPlayer/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +42,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
     "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/Users/user/WebstormProjects/VKFreePlayer/node_modules/prettier",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "prettierjs.PrettierConfiguration.Package": "/Users/user/WebstormProjects/VKFreePlayer/VKFPlayer/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
     "ts.external.directory.path": "/Users/user/WebstormProjects/VKFreePlayer/VKFPlayer/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -61,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675752450788</updated>
       <workItem from="1675752452083" duration="1007000" />
+      <workItem from="1675759433131" duration="897000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1675752846570</created>
@@ -83,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675758499313</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add basic navigation">
+      <created>1675759340882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675759340882</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
     <MESSAGE value="del" />
-    <option name="LAST_COMMIT_MESSAGE" value="del" />
+    <MESSAGE value="add basic navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add basic navigation" />
   </component>
 </project>

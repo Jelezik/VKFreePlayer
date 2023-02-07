@@ -9,7 +9,11 @@ const NavigationList = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="AuthPage" component={AuthPage} />
+        <Stack.Screen
+          name="AuthPage"
+          component={AuthPage}
+          options={{title: 'Авторизация', headerTitleAlign: 'center'}}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
