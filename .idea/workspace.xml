@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="add redux and reducers">
+    <list default="true" id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="del useeffect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/navigation/NavigationList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/navigation/NavigationList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VKFPlayer/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/pages/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/redux/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675752450788</updated>
       <workItem from="1675752452083" duration="1007000" />
-      <workItem from="1675759433131" duration="7528000" />
+      <workItem from="1675759433131" duration="10852000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1675752846570</created>
@@ -111,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675768565154</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add full authorization">
+      <created>1675769604149</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675769604149</updated>
+    </task>
+    <task id="LOCAL-00009" summary="del useeffect">
+      <created>1675769620974</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675769620974</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +150,8 @@
     <MESSAGE value="add authorization" />
     <MESSAGE value="add full vk authorization" />
     <MESSAGE value="add redux and reducers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add redux and reducers" />
+    <MESSAGE value="add full authorization" />
+    <MESSAGE value="del useeffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="del useeffect" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 import React, {useCallback, useEffect, useState} from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
 import VKLogin from 'react-native-vkontakte-login';
-import {useAppDispatch} from '../redux/utils/redux-utils';
+import {useAppDispatch, useAppSelector} from '../redux/utils/redux-utils';
 import {authSlice} from '../redux/reducers/authSlice';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -9,11 +9,12 @@ const AuthPage = ({navigation}: any): JSX.Element => {
   const [loadingKey, setLoadingKey] = useState<boolean>(false);
   const dispatch = useAppDispatch();
   const {takeAuthToken} = authSlice.actions;
+  const {token} = useAppSelector(state => state.auth);
 
   const handleAuth = async (): Promise<void> => {
     const asyncAuthKey = await AsyncStorage.getItem('authKey');
 
-    if (asyncAuthKey !== null) {
+    if (asyncAuthKey !== null && token) {
       navigation.navigate('MainPage');
     } else {
       const auth = await VKLogin.login(['friends', 'photos', 'audio']);
@@ -31,7 +32,7 @@ const AuthPage = ({navigation}: any): JSX.Element => {
     setLoadingKey(true);
     try {
       const userAuthToken = await AsyncStorage.getItem('authKey');
-      if (userAuthToken) {
+      if (userAuthToken && token) {
         navigation.navigate('MainPage');
         setLoadingKey(false);
       } else {
