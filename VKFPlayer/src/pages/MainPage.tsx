@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Button, Text, View} from 'react-native';
 import VKLogin from 'react-native-vkontakte-login';
 import {useAppDispatch} from '../redux/utils/redux-utils';
