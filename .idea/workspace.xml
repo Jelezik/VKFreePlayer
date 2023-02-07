@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="add authorization">
+    <list default="true" id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="add redux and reducers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VKFPlayer/src/navigation/NavigationList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/navigation/NavigationList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/pages/MainPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675752450788</updated>
       <workItem from="1675752452083" duration="1007000" />
-      <workItem from="1675759433131" duration="6494000" />
+      <workItem from="1675759433131" duration="7528000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1675752846570</created>
@@ -100,7 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675760645816</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add full vk authorization">
+      <created>1675768551305</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675768551305</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add redux and reducers">
+      <created>1675768565154</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675768565154</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +133,8 @@
     <MESSAGE value="del" />
     <MESSAGE value="add basic navigation" />
     <MESSAGE value="add authorization" />
-    <option name="LAST_COMMIT_MESSAGE" value="add authorization" />
+    <MESSAGE value="add full vk authorization" />
+    <MESSAGE value="add redux and reducers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add redux and reducers" />
   </component>
 </project>

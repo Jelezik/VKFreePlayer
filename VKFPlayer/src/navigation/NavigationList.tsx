@@ -18,7 +18,11 @@ const NavigationList = () => {
         <Stack.Screen
           name={'MainPage'}
           component={MainPage}
-          options={{title: 'Мэин пэйдж', headerTitleAlign: 'center'}}
+          options={{
+            title: 'Мэин пэйдж',
+            headerTitleAlign: 'center',
+            headerBackVisible: false,
+          }}
         />
       </Stack.Navigator>
     </NavigationContainer>
