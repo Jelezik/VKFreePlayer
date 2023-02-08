@@ -28,7 +28,7 @@ const AuthPage = () => {
   return (
     <WebView
       source={{
-        uri: 'https://oauth.vk.com/authorize?client_id=51545973&redirect_uri=https://oauth.vk.com/blank.html&scope=10&response_type=token&display=mobile',
+        uri: 'https://oauth.vk.com/authorize?client_id=51545973&redirect_uri=https://oauth.vk.com/blank.html&scope=friends,audio&response_type=token&display=mobile&v=5.131',
       }}
       onNavigationStateChange={onNavigationStateChange}
     />

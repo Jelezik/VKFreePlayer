@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="add dep, need debug request to vk">
-      <change afterPath="$PROJECT_DIR$/VKFPlayer/src/pages/HelloPage.tsx" afterDir="false" />
+    <list default="true" id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="get access token with webview">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/navigation/NavigationList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/navigation/NavigationList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VKFPlayer/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/pages/MainPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/redux/actions/musicAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/redux/actions/musicAction.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +63,7 @@
       <workItem from="1675752452083" duration="1007000" />
       <workItem from="1675759433131" duration="12405000" />
       <workItem from="1675839128635" duration="18000" />
-      <workItem from="1675846420522" duration="20237000" />
+      <workItem from="1675846420522" duration="21114000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1675752846570</created>
@@ -141,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675773138960</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="get access token with webview">
+      <created>1675874578979</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675874578979</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +169,7 @@
     <MESSAGE value="add full authorization" />
     <MESSAGE value="del useeffect" />
     <MESSAGE value="add dispatch" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dispatch" />
+    <MESSAGE value="get access token with webview" />
+    <option name="LAST_COMMIT_MESSAGE" value="get access token with webview" />
   </component>
 </project>
