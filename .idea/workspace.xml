@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="add dispatch">
+    <list default="true" id="a2d378a9-0582-4699-8ab5-7da65d2ab46f" name="Changes" comment="add dep, need debug request to vk">
+      <change afterPath="$PROJECT_DIR$/VKFPlayer/src/pages/HelloPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/navigation/NavigationList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/navigation/NavigationList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/src/pages/AuthPage.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/VKFPlayer/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/src/pages/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VKFPlayer/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/VKFPlayer/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,23 +36,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/user/WebstormProjects/VKFreePlayer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/Users/user/WebstormProjects/VKFreePlayer/VKFPlayer/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/user/WebstormProjects/VKFreePlayer/VKFPlayer/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/user/WebstormProjects/VKFreePlayer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/user/WebstormProjects/VKFreePlayer/VKFPlayer/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/user/WebstormProjects/VKFreePlayer/VKFPlayer/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -61,6 +68,8 @@
       <updated>1675752450788</updated>
       <workItem from="1675752452083" duration="1007000" />
       <workItem from="1675759433131" duration="12405000" />
+      <workItem from="1675839128635" duration="18000" />
+      <workItem from="1675846420522" duration="20237000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1675752846570</created>
